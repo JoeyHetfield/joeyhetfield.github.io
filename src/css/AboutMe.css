@@ -1,0 +1,31 @@
+body {
+  background-color: #3a3a3a;
+  text-align: center;
+  margin: 50px auto;
+  font-size: 1.2rem;
+}
+
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 25px auto;
+}
+
+ p {
+  text-align: left;
+  width: 80%;
+  margin: 25px auto;
+  font-size: 1.2rem;
+  color: rgb(161, 159, 159);
+}
+
+button {
+  background-color: #889e89;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
