@@ -1,4 +1,5 @@
 {
+  "homepage": "http://joeyhetfield.github.io/profile",
   "name": "profile-port",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,7 +46,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.1",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0"
   },
   "extends": [
     "plugin:import/errors",
