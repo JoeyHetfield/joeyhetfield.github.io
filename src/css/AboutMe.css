@@ -10,6 +10,11 @@ img {
   width: 200px;
   height: 200px;
   margin: 25px auto;
+  transition: 500ms linear;
+}
+
+img:hover {
+  transform: scale(1.5);
 }
 
  p {
